@@ -1,0 +1,83 @@
+.q-table {
+      box-sizing: initial;
+      border-spacing: 0px 10px !important;
+      width: 98% !important;
+      margin: 0 1% 0 1%;
+      max-width: 98%;
+}
+
+.q-table__container {
+      background-color: var(--branco-claro) !important;
+      box-shadow: none !important;
+}
+
+.tituloTabela {
+      font-size: 22px;
+      font-weight: 600;
+}
+
+.q-table > tbody > tr{
+      background-color: white;
+}
+
+.tituloEditaRoteador {
+      font-size: 20px;
+      margin: 0 0 10px 2px;
+}
+
+.q-table td:first-child {
+      border-left-style: solid;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+}
+
+.q-table td:last-child {
+      border-right-style: solid;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+}
+
+.q-field--outlined .q-field__control{
+      border-radius: 8px !important;
+}
+
+.busca{
+      padding: 10px;
+      width: 100%;
+}
+
+.campoBusca{
+      margin-left: auto;
+      width: 20%;
+}
+
+.iconesTabela{
+      font-size: 20px;
+      color: var(--azul-claro);
+}
+
+.iconesTabela:hover{
+      cursor: pointer;
+}
+
+.botaoCadastrar{
+      background-color: #193f79 !important;
+      border: none !important;
+      padding: 10px 12px;
+      color: white !important;
+      border-radius: 8px !important;
+}
+
+.botaoCadastrar:hover{
+      cursor: pointer;
+}
+
+.modeloRoteador{
+      width: 45px; 
+      height: 45px;
+}
+
+.q-btn{
+      padding: 8px 10px !important;
+      font-weight: 400 !important;
+}

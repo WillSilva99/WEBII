@@ -1,0 +1,48 @@
+.bgBrancoEscuro {
+    background-color: var(--cinza-escuro);
+}
+
+.topoNavbar {
+    min-width: 100%;
+}
+
+.topoTitulo {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Helvetica;
+    margin: 0;
+}
+
+.topoSpan {
+    width: 5px;
+    height: 30px;
+    background-color: var(--azul-escuro);
+}
+
+.userNavbar {
+    min-width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.userNome {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.userFuncao {
+    color: var(--azul-escuro);
+}
+
+.botoesNavbar {
+    min-width: 100%;
+    margin-top: 40px;
+}
+
+.my-menu-link {
+    background: var(--azul-escuro);
+    color: white;
+}
